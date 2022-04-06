@@ -1,0 +1,83 @@
+/* ------------------------------------------------------------------
+    Template All Variables Defined - Value Change with Your's Need
+ -------------------------------------------------------------------- */
+ $prodact-1:#dff3ef;
+ $prodact-2:#9eaca4;
+ $prodact-3:#c3d1d1;
+
+ /*button-color*/
+ $button:#092f39;
+ $hover:#DB2C37;
+ $white:#fff;
+ $text:#0a303a;
+
+.bb{
+    border: none;
+    background-color: $button;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        background-color:$hover ;
+    }
+}
+p,
+a{
+    text-decoration: none;
+    color:  $text;
+    font-weight: 500px;
+    &:hover{
+        color: none !important;
+    }
+}
+.bg-1{
+    background-color:  $prodact-1;
+}
+.bg-2{
+    background-color:  $prodact-2;
+}
+.bg-3{
+    background-color:  $prodact-3;
+}
+@mixin botom {
+    font-weight: 500;
+    border: 1px solid $button;
+    border-radius: 50px;
+    bottom:-30px;
+    left: 15%;
+    position: absolute;
+    width: 280px;
+    height: 55px;
+    background-color:$white;
+    margin: 0 auto;
+    line-height: 55px;
+    transition: all 0.4s ease-out;
+    &:hover{
+        background-color:$button;
+        color: $white;
+    }
+}
+@mixin dropdwon {
+    .dropdown{
+        .dropbtn {
+            outline: none;
+            color: #000;
+            background-color: inherit;
+            font: inherit;
+            margin: 0;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 100%;
+            left: 0;
+            z-index: 1;
+            padding: 20px;
+            transition: all 0.4s ease-in-out !important;
+        }
+        &:hover .dropdown-content {
+            display: block;
+          }
+    }
+}

@@ -1,0 +1,93 @@
+#section-1
+{
+    main{
+        .pt{
+            h2{
+                font-size: 24px;
+                font-weight: 500;
+            }
+            p{
+                padding-left: 100px;
+                padding-right: 100px
+            };
+        }
+        .modal-content{
+            background-color: transparent !important;
+            border: none !important;
+        }
+    }
+}
+///section-2
+#section-2{
+    .prodact-all{
+        margin-top: 50px;
+        position: relative;
+        .prodact{
+            padding-top: 30px;
+            overflow: hidden;
+            width: 407px;
+            height: 245px;
+        }
+        .button-1{
+            a{
+                @include botom;
+            }
+        }
+    }
+}
+///section-3
+#section-3{
+    .heading{
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .prodact-all{
+        position: relative;
+        .prodact{
+            overflow: hidden;
+            width: 407px;
+        }
+        .button-1{
+            a{
+                @include botom;
+            }
+        }
+    }
+    .searce-b{
+        .searce {
+            .bottom-head{
+                h2{
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    padding-top: 15px;
+                }
+            }
+            .bottom-searce{
+                border: 1px solid $button;
+                border-radius: 50px;
+                input{
+                    border: none;
+                    outline: none;
+                    width: 350px;
+                    height: 30px;
+                    background-color: transparent;
+                }
+                button{
+                    outline: none;
+                    background-color: $button;
+                    height: 54px;
+                    padding: 10px 30px;
+                    border-radius: 50px;
+                    font-weight: 500;
+                    color: $white;
+                    transition: all 0.4s ease-out;
+                    &:hover{
+                        background-color: $hover;
+                    }
+                }
+            }
+        }
+    }
+}

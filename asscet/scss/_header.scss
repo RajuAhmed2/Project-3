@@ -1,0 +1,84 @@
+header{
+    .head{
+        .flag{
+            @include dropdwon;
+                    .dropbtn {
+                        border-radius: 50px;
+                        border: 1px solid $button;
+                        outline: none;
+                        color: #000;
+                        padding: 10px 20px;
+                        background-color: inherit;
+                        font: inherit;
+                        margin: 0;
+                    }
+        }
+        .link{
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                color: $white;
+                letter-spacing: 2px;
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+        .manu-sub-1{
+            .ziz{
+
+                @include dropdwon;
+            }
+            a{
+                font-weight: 500;
+                font-size: 15px;
+                transition: all 0.4s ease-out;
+                &:hover{
+                    color: $hover;
+                }
+            }
+            .sec{
+                border: none;
+                outline: none;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+        .searce{
+            input{
+                padding-right: 50px;
+                border: none;
+                outline: none;
+                width: 350px;
+            }
+        }
+        .mobil-manu-icon{
+            position: relative;
+            .mobile{
+                position: absolute;
+                height: 400px;
+                width: 500px;
+                background-color: aqua;
+                z-index: 200;
+                padding: 20px;
+                left: 60%;
+                top: 100%;
+            }
+        }
+    }
+    .nav-bar{
+        ol li a{
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.4s ease-out;
+            &:hover{
+                color: $hover;
+            }
+        }
+    }
+    .dop-dwon{
+        display: none;
+    }
+    .sec-d{ 
+        @include dropdwon;
+    }
+}

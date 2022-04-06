@@ -1,0 +1,184 @@
+@media (max-width: 1080px){
+    //prodact
+    #section-2 .prodact-all .prodact {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 325px;
+        height: 245px;
+    }
+    #section-2 .prodact-all .button-1 a {
+        font-weight: 500;
+        border: 1px solid #092f39;
+        border-radius: 50px;
+        bottom: -30px;
+        left: 12%;
+        position: absolute;
+        width: 251px;
+        height: 55px;
+        background-color: #fff;
+        margin: 0 auto;
+        line-height: 55px;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+    //section 3
+    #section-3 .prodact-all .prodact {
+        overflow: hidden;
+        width: 325px;
+    }
+    #section-3 .prodact-all .button-1 a {
+        font-weight: 500;
+        border: 1px solid #092f39;
+        border-radius: 50px;
+        bottom: -30px;
+        left: 12%;
+        position: absolute;
+        width: 251px;
+        height: 55px;
+        background-color: #fff;
+        margin: 0 auto;
+        line-height: 55px;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+}
+@media (max-width: 768px){
+    header .head .searce input {
+        padding-right: 50px;
+        border: none;
+        outline: none;
+        width: 200px;
+    }
+    #section-1 main .pt p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    //prodact
+    #section-2 .prodact-all .prodact {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 365px;
+        height: 245px;
+    }
+    #section-3 .prodact-all .button-1 a {
+        font-weight: 500;
+        border: 1px solid #092f39;
+        border-radius: 50px;
+        bottom: -30px;
+        left: 15%;
+        position: absolute;
+        width: 251px;
+        height: 55px;
+        background-color: #fff;
+        margin: 0 auto;
+        line-height: 55px;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+    #section-3 .prodact-all .prodact {
+        width: 365px;
+        margin-top: 50px;
+    }
+    
+    #section-3 .searce-b .searce .bottom-searce input {
+        border: none;
+        outline: none;
+        width: 200px;
+        height: 30px;
+        background-color: transparent;
+    }
+    .nav-a{
+        display: none !important;
+    }
+    .sec-d{
+        display: block !important;
+    }
+
+}
+@media (max-width: 425px){
+    .bb {
+        width: 100px !important;
+        padding: 4px 20px !important;
+    }
+    #section-3 .heading {
+        width: 390px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    #section-2 .prodact-all .prodact {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 400px;
+        height: 245px;
+    }
+    section main .pt h2 {
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #section-3 .prodact-all .prodact {
+        width: 400px;
+        margin-top: 50px;
+    }
+    .searce-b .searce {
+        display: block !important;
+    }
+    #section-3 .searce-b .searce .bottom-searce input {
+        border: none;
+        outline: none;
+        width: 226px;
+        height: 30px;
+        background-color: transparent;
+    }
+    #section-3 .searce-b .searce .bottom-searce {
+        border: 1px solid #092f39;
+        border-radius: 50px;
+        margin-left: 0px !important;
+    }
+    footer .head-f h2 {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: start !important;
+    }
+    .mb-100 {
+        margin-bottom: 70px;
+    }
+    
+    .mt-100 {
+        margin-top: 70px;
+    }
+
+    #section-2 .prodact-all .button-1 a {
+        font-weight: 500;
+        border: 1px solid #092f39;
+        border-radius: 50px;
+        bottom: -30px;
+        left: 15% !important;
+        position: absolute;
+        width: 280px !important;
+        height: 55px;
+        background-color: #fff;
+        margin: 0 auto;
+        line-height: 55px;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+    #section-3 .prodact-all .button-1 a {
+        font-weight: 500;
+        border: 1px solid #092f39;
+        border-radius: 50px;
+        bottom: -30px;
+        left: 15% !important;
+        position: absolute;
+        width: 280px !important;
+        height: 55px;
+        background-color: #fff;
+        margin: 0 auto;
+        line-height: 55px;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+    }
+    footer .fotter-link ol li {
+        margin-bottom: 5px !important;
+    }
+}
